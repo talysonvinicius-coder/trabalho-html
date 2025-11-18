@@ -3,7 +3,7 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(../img/fundo.png);
+  background-image: url('../img/Copilot_20251116_001125.png');
   color: #fff;
   background-size: cover;
   background-position: center;
@@ -26,7 +26,7 @@ body {
 
 .register-form{
   margin: 0 auto;
-  background-color: rgb(121, 74, 74);
+  background-color: #C8A03B;
   padding: 25px;
   border-radius: 15px;
 }
