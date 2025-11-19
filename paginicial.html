@@ -15,10 +15,12 @@
             border-collapse: collapse ;
             /* Obrigatório para ter o título da tabela fixo */
             position: relative;
+           
         }
         td, th {
             border: 1px solid black;
             padding: 20px;
+            background-color: chocolate;
         }
         thead, tfoot {
             background-color: gray;
@@ -47,11 +49,21 @@
             background-color: lightgray;
 
         }
+      
         
         tbody > tr:nth-child(2n) {
-            background-color: #0a468300;
+            background-color: chocolate;
 
         }
+        input {
+  font-size: large;
+  color: #fff;
+  padding: 15px 15px;
+  background-color: #442e2e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
     </style>
     
@@ -78,11 +90,12 @@
             <td>MPB</td>
              <td><a href="mpb.html"><button id="visualizarmusicas">Visualizar Músicas</button></td>
         </tr>
-         
+        
     
         <link rel="stylesheet" href="paginicial.html">
     </tbody>
  </table>
- <p><a href="musica.html">Voltar para Página inicial</a></p>
+ <a href="musica.html"> <input type="button" value="Voltar para página inicial"> 
+
 </body>
 </html>
